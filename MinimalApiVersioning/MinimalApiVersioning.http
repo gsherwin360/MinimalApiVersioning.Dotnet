@@ -1,0 +1,9 @@
+@MinimalApiVersioning_HostAddress = http://localhost:5049
+
+###
+GET {{MinimalApiVersioning_HostAddress}}/api/v1/products
+Accept: application/json
+
+###
+GET {{MinimalApiVersioning_HostAddress}}/api/v2/products
+Accept: application/json
