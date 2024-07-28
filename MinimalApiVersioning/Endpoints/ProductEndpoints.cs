@@ -9,8 +9,8 @@ public static class ProductsEndpoints
     {
         // Define the API versions supported by this endpoint set
         ApiVersionSet versionSet = app.NewApiVersionSet()
-            .HasApiVersion(new ApiVersion(1)) // Version 1.0
-            .HasApiVersion(new ApiVersion(2)) // Version 2.0
+            .HasApiVersion(new ApiVersion(1)) // Version 1.0 (deprecated)
+            .HasApiVersion(new ApiVersion(2)) // Version 2.0 (current)
             .HasDeprecatedApiVersion(new ApiVersion(1)) // Mark version 1.0 as deprecated
             .Build();
 

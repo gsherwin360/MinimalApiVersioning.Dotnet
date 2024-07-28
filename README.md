@@ -18,6 +18,14 @@ To run the API locally, follow these steps:
 2. Open the project in your preferred development environment.
 3. Build and run the project using the appropriate commands or methods for your development environment.
 
+## API Versions
+
+### Deprecated Versions
+- **Version 1**: Deprecated. This version is still available but no longer recommended for use.
+
+### Supported Versions
+- **Version 2**: Supported. This version is the current version and should be used for new integrations.
+
 ## Notes
 - **Demo Data**: The endpoints currently return static strings for demonstration purposes.
 
